@@ -65,10 +65,18 @@ p a {
 }
 #tags div{
     font-weight: 800;
-    background-color: #EA8C55;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 10px;
     border-radius: 10px;
+    font-weight: 800;
+}
+.sfw {
+    background-color: #81F499;
+    color: black;
+}
+.nsfw {
+    background-color: #EE6C4D;
+    color: white;
 }
