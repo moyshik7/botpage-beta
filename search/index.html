@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search Commands</title>
+    <meta name="robots" property="robots" content="all" />
+    <meta name="googlebot" property="googlebot" content="all" />
+    <meta name="description" property="description"
+        content="Search throw all our commands and how they works, Get help and see related commands. Don't know where to start ? Type 'anime'" />
+    <meta name="og:type" property="og:type" content="article" />
+    <meta name="og:site_name" property="og:site_name" content="Plubin" />
+    <meta name="og:title" property="og:title" content="Search Commands of Plubin Discord Bot" />
+    <meta name="og:image" property="og:image"
+        content="https://cdn.discordapp.com/attachments/931096682291138582/971098994023497738/20220503_231333_0000.jpg" />
+    <meta name="twitter:title" property="twitter:title" content="Search Commands of Plubin Discord Bot" />
+    <meta name="twitter:description" property="twitter:description"
+        content="Search throw all our commands and how they works, Get help and see related commands. Don't know where to start ? Type 'anime'" />
+    <meta name="twitter:image" property="twitter:image"
+        content="https://cdn.discordapp.com/attachments/931096682291138582/971098994023497738/20220503_231333_0000.jpg" />
+    <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" property="twitter:image:alt" content="Search Commands of Plubin Discord Bot" />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <meta name="keywords" content="
+        Discord Anime bot,
+        Discord Meme bot,
+        Discord Animeme bot,
+        Popular discord anime server,
+        Search anime,
+        Serach reddit,
+        Search Commands,
+        Search memes,
+        Search Discord bot
+    " />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./../res/main.css" />
+    <link rel="stylesheet" href="./search.css" />
+</head>
+
+<body>
+    <div id="main" class="flex-container flex-row">
+        <div id="navbar" class="flex-container flex-col">
+            <a href="./../">
+                <!-- Homepage -->
+                <i class="material-icons">home</i>
+            </a>
+            <a href="./../invite/" title="Invite Bot" target="_blank">
+                <!-- Add bot to server -->
+                <i class="material-icons">add_box</i>
+            </a>
+            <a href="./../commands/">
+                <!-- Commands -->
+                <i class="material-icons">view_list</i>
+            </a>
+            <a href="./../dashboard/">
+                <!-- Dashboard -->
+                <i class="material-icons">cloud</i>
+            </a>
+            <a href="#"  class="current">
+                <!-- Search -->
+                <i class="material-icons">search</i>
+            </a>
+            <a href="./../nsfw/">
+                <!-- NSFW -->
+                <i class="material-icons">do_not_disturb_on</i>
+            </a>
+            <a href="./../tos/">
+                <!-- Legal -->
+                <i class="material-icons">account_balance</i>
+            </a>
+            <a href="./../accessibility/">
+                <!-- Accessiblity -->
+                <i class="material-icons">accessible</i>
+            </a>
+            <a href="./../payment/">
+                <!-- Payments and stuff -->
+                <i class="material-icons">credit_card</i>
+            </a>
+        </div>
+        <div class="content">
+            <div id="tos">
+                <h1>Search Commands of Plubin Discord Bot</h1>
+                <h2>Search throw all our commands and how they works, Get help and see related commands. Don't know where to start ? Type 'anime'</h2>
+                <div id="searchbar" class="flex-container flex-row">
+                    <input id="searchtext" type="search" onkeyup="search()" onchange="search()" autocomplete="off" placeholder="Type to Search" />
+                    <button id="searchbutton" type="button" onclick="search()"><i class="material-icons">search</i></button>
+                </div>
+            </div>
+            <ul id="searchlist">
+            </ul>
+        </div>
+        <script src="./search.js" type="text/javascript"></script>
+    </div>
+</body>
+</html>

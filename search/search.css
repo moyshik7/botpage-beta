@@ -1,0 +1,71 @@
+#main .content #tos {
+    text-align: center;
+    padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif
+}
+h1 {
+    font-size: 2.3em;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+#searchbar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#searchbar input {
+    flex-basis: 70%;
+    padding: 10px;
+    color: #FFEEDD;
+    background-color: transparent;
+    margin-right: 0;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 4px solid #EA8C55;
+    border-right: 0px solid red;
+    font-size: 25px;
+}
+#searchbar button {
+    flex-basis: 5%;
+    color: #FFEEDD;
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 0;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 4px solid #EA8C55;
+    border-left: 0px solid red;
+    font-size: 25px;
+}
+#searchlist {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#searchlist li {
+    margin: 0;
+    padding: 15px;
+    font-size: 22px;
+    background-color: #D8DBE2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 50%;
+    border-radius: 5px;
+}
+#searchlist li a {
+    text-decoration: none;
+    color: #444545;
+    font-weight: 900;
+}
