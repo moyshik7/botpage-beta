@@ -97,7 +97,7 @@ var commandList = [
         allias: ["tits"],
     },{
         name: "butt",
-        description: "(nsfw) A lumb of watermelons",
+        description: "(nsfw) Just two lumps of watermelons",
         allias: ["asses", "butts"],
     },{
         name: "hardcore",
