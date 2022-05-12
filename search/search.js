@@ -1,271 +1,267 @@
 var commandList = [
     {
         name: "anime",
-        description: "Search for an anime",
+        link: "/commands/sfw/anime/",
         allias: ["animes", "search"],
     }, {
         name: "manga",
-        description: "Search for an manga / japanese comics",
+        link: "/commands/sfw/manga/",
         allias: ["comics", "comic", "manhwa", "manhua", "search", "doujin"],
     },{
         name: "waifu",
-        description: "Pick your waifu",
+        link: "/commands/sfw/waifu/",
         allias: ["rem", "zero two", "nezuko"],
     },{
         name: "animeme",
-        description: "Anime memes",
+        link: "/commands/sfw/animeme/",
         allias: ["goodanimemes", "animemes", "goodanimeme"],
     },{
         name: "goodanimeme",
-        description: "Animemes with a hint from the other sides (Yes I'm refering to hentai)",
+        link: "/commands/sfw/goodanimeme/",
         allias: ["goodanimemes", "animemes", "animeme"],
     },{
         name: "wholesomehentai",
-        description: "Hentais you'll end up laughing so much that you'll forget to fap",
+        link: "/commands/sfw/wholesomehentai/",
         allias: ["whh"],
     },{
         name: "catgirl",
-        description: "nya ~~ Get a cute catgirl image",
+        link: "/commands/sfw/neko/",
         allias: ["catgirls", "neko"],
     },{
         name: "foxgirl",
-        description: "Get a cute foxgirl Image",
+        link: "/commands/sfw/foxgirl/",
         allias: ["foxgirls"],
     },{
         name: "watchlist",
-        description: "Your anime watchlist",
+        link: "/commands/sfw/watchlist/",
         allias: ["list"],
     },{
         name: "meme",
-        description: "Get some cool memes",
+        link: "/commands/sfw/meme/",
         allias: ["memes", "goodmemes"],
     },{
         name: "dank",
-        description: "Get some cool dank memes",
+        link: "/commands/sfw/dank/",
         allias: ["dankmemes", "dark","darkmemes", "darkhumour", "darkhumor"],
     },{
         name: "prequel",
-        description: "Posts from the r/prequel subreddit",
+        link: "/commands/sfw/prequel/",
         allias: ["memes"],
     },{
         name: "baka",
-        description: "They're just idiots",
+        link: "/commands/sfw/baka/",
         allias: ["idiot", "emotions"],
     },{
         name: "cuddle",
-        description: "Cuddle Someone; Get a cuddling GIF",
+        link: "/commands/sfw/cuddle/",
         allias: ["cuddling", "cuddles", "emotions"],
     },{
         name: "feed",
-        description: "Feed Someone; Get a feeding GIF",
+        link: "/commands/sfw/feed/",
         allias: ["feeds", "feeding", "emotions"],
     },{
         name: "hug",
-        description: "Hug Someone; Get a hugging GIF",
+        link: "/commands/sfw/hug/",
         allias: ["hugging", "emotions"],
     },{
         name: "kiss",
-        description: "Kiss Someone; Get a kissing GIF",
+        link: "/commands/sfw/kiss/",
         allias: ["kissing", "fucking", "emotions"],
     },{
         name: "pat",
-        description: "Give someone headpats; Get a patting GIF",
+        link: "/commands/sfw/pat/",
         allias: ["headpat", "patting", "emotions"],
     },{
         name: "poke",
-        description: "Poke Someone; Get a poking GIF",
+        link: "/commands/sfw/poke/",
         allias: ["poking", "emotions"],
     },{
         name: "smug",
-        description: "Get a smug GIF",
+        link: "/commands/sfw/smug/",
         allias: ["emotions"],
     },{
         name: "tickle",
-        description: "Tickle Someone; Get a tickling GIF",
+        link: "/commands/sfw/tickle/",
         allias: ["ticklish", "emotions"],
     }, {
         name: "anal",
-        description: "(nsfw) Taking it in the back doesn't count right ?",
+        link: "/commands/nsfw/anal/",
         allias: [],
     },{
         name: "blowjob",
-        description: "(nsfw) Take it in mouth",
+        link: "/commands/nsfw/blowjob/",
         allias: [],
     },{
         name: "boobs",
-        description: "(nsfw) Lumps on a woman's chest that tend to have a staring problem. Larger one's tend to stare more than others.",
+        link: "/commands/nsfw/boobs/",
         allias: ["tits"],
     },{
         name: "butt",
-        description: "(nsfw) Just two lumps of watermelons",
+        link: "/commands/nsfw/butt/",
         allias: ["asses", "butts"],
     },{
         name: "hardcore",
-        description: "(nsfw) ",
+        link: "/commands/nsfw/hardcore/",
         allias: [],
     },{
         name: "milf",
-        description: "(nsfw) Hot moms in your area with an incurable STD",
+        link: "/commands/nsfw/milf/",
         allias: [],
     },{
         name: "mom",
-        description: "(nsfw) Joe Mama",
+        link: "/commands/nsfw/mom/",
         allias: [],
     },{
         name: "pussy",
-        description: "(nsfw) Something warm, wet, snuggly and sometimes furry that you can eat and still fuck it afterwords. The only thing I know that can bleed for seven days and not die.",
+        link: "/commands/nsfw/pussy/",
         allias: [],
     },{
         name: "thicc",
-        description: "(nsfw) Damn she got a phat ass",
+        link: "/commands/nsfw/thicc/",
         allias: [],
     },{
         name: "bondage",
-        description: "(nsfw) You into this shit ? *questions sanity",
+        link: "/commands/nsfw/bondage/",
         allias: ["bdsm"],
     },{
         name: "vanila",
-        description: "(nsfw) She's so sweet",
+        link: "/commands/nsfw/vanila/",
         allias: [],
     },{
         name: "cumslut",
-        description: "(nsfw) She just can't get enough jism",
+        link: "/commands/nsfw/cumslut/",
         allias: ["cumshot"],
     },{
         name: "feet",
-        description: "(nsfw) What lots of people like to suck, lick, and just enjoy in their face",
+        link: "/commands/nsfw/feet/",
         allias: ["legs"],
     },{
         name: "femdom",
-        description: "(nsfw) Mommy !",
+        link: "/commands/nsfw/femdom/",
         allias: [],
     },{
         name: "glasses",
-        description: "(nsfw) She's trying to read your face when fucking",
+        link: "/commands/nsfw/glasses/",
         allias: [],
     },{
         name: "heels",
-        description: "(nsfw) You into this ?",
+        link: "/commands/nsfw/heels/",
         allias: [],
     },{
         name: "longhair",
-        description: "(nsfw) Something to grab when pounding",
+        link: "/commands/nsfw/longhair/",
         allias: ["longhairs"],
     },{
         name: "oil",
-        description: "(nsfw) Damn she's so slippery",
+        link: "/commands/nsfw/oil/",
         allias: ["slimy", "slime", "oiled", "slippery"],
     },{
         name: "orgasm",
-        description: "(nsfw) Never had one in my entire 19 y/o life",
+        link: "/commands/nsfw/orgasm/",
         allias: [],
     },{
         name: "pawg",
-        description: "(nsfw) Phat Ass White Girl with a nice round onion butt that when you screw her doggy style, it gives the right amount of cushioning",
+        link: "/commands/nsfw/pawg/",
         allias: [],
     },{
         name: "redhead",
-        description: "(nsfw) Are those dyed ?",
+        link: "/commands/nsfw/redhead/",
         allias: ["dyed"],
     },{
         name: "shorthair",
-        description: "(nsfw) Why do you look more like a man than my boyfriend does ?",
+        link: "/commands/nsfw/shorthair/",
         allias: ["short"],
     },{
         name: "spank",
-        description: "(nsfw) HARDER DADDY !!!",
+        link: "/commands/nsfw/spank/",
         allias: ["hurt"],
     },{
         name: "tan",
-        description: "(nsfw) Those tanlines seems lickable",
+        link: "/commands/nsfw/tan/",
         allias: ["tanline", "sunburn"],
     },{
         name: "tiny",
-        description: "(nsfw) The's smol(In size not age you psyco) but who cares ?",
+        link: "/commands/nsfw/tiny/",
         allias: ["small", "smol"],
     },{
         name: "trap",
-        description: "(nsfw) A boy who looks like girls, dresses like a girl, talks like girls, fucks like girls",
+        link: "/commands/nsfw/trap/",
         allias: ["femboi", "femboy"]
     },{
         name: "hentai",
-        description: "(nsfw) I see you're a man of culture as well",
+        link: "/commands/nsfw/hentai/",
         allias: ["cultured"]
     },{
         name: "tentacles",
-        description: "(nsfw) Who dosen't like tentacles",
+        link: "/commands/nsfw/tentacles/",
         allias: ["tentai", "tentacle"]
     },{
         name: "yuri",
-        description: "(nsfw) Girl x Girl",
+        link: "/commands/nsfw/yuri",
         allias: ["lesbian", "gay", "gae"]
     },{
         name: "yaoi",
-        description: "(nsfw) Boy x Boy",
+        link: "/commands/nsfw/yaoi/",
         allias: ["gay", "gae"]
     },{
         name: "oppai",
-        description: "(nsfw) Boobs in Anime",
+        link: "/commands/nsfw/oppai/",
         allias: ["boobs", "tits"]
     },{
-        name: "holo",
-        description: "(nsfw) Get an holo image / GIF",
-        allias: []
-    },{
         name: "futa",
-        description: "(nsfw) Damn you got a vagina and a dick altogether ? Man I'm jealous",
+        link: "/commands/nsfw/futa/",
         allias: ["futanari", "femgirl", "bisexual"]
     },{
         name: "neko",
-        description: "(nsfw) Get a lewn neko image / gif",
+        link: "/commands/nsfw/neko/",
         allias: ["catgirl"]
     },{
         name: "asian",
-        description: "(nsfw) Asian porn",
+        link: "/commands/nsfw/asian/",
         allias: ["asia", "chinese", "china"]
     },{
         name: "black",
-        description: "(nsfw) Ebony girls",
+        link: "/commands/nsfw/black/",
         allias: ["nigga", "nigger", "ebony","blm"]
     },{
         name: "blonde",
-        description: "(nsfw)  Blonde girls",
+        link: "/commands/nsfw/blonde/",
         allias: ["white", "golden"]
     },{
         name: "filipino",
-        description: "(nsfw) Filipino porn",
+        link: "/commands/nsfw/filipino/",
         allias: ["filipinos", "philippines"]
     },{
         name: "indian",
-        description: "(nsfw) Indian Girls",
+        link: "/commands/nsfw/indian/",
         allias: ["india"]
     },{
         name: "japanese",
-        description: "(nsfw) Japanese girls",
+        link: "/commands/nsfw/japanese/",
         allias: ["jav", "jap"]
     },{
         name: "korean",
-        description: "(nsfw) Korean girls",
+        link: "/commands/nsfw/korean/",
         allias: ["korea", "kpop"]
     },{
         name: "celebrity",
-        description: "(nsfw) Celebrity porn",
+        link: "/commands/nsfw/celebrity/",
         allias: ["celebrities", "famous"]
     },{
         name: "erotic",
-        description: "(nsfw) Erotic images",
+        link: "/commands/nsfw/erotic/",
         allias: ["hot"]
     },{
         name: "lewd",
-        description: "(nsfw) Lewd images",
+        link: "/commands/nsfw/lewd/",
         allias: ["hot"]
     },{
         name: "christmas",
-        description: "(nsfw) Christmas themed porns",
+        link: "/commands/nsfw/xmas/",
         allias: ["xmas", "chrismas"]
     },{
         name: "halloween",
-        description: "(nsfw) Halloween themed porns",
+        link: "/commands/nsfw/halloween",
         allias: ["hal", "helloween"]
     },
 ];
@@ -279,7 +275,6 @@ function search() {
         let command = commandList[a];
         if (
             command.name.toLowerCase().indexOf(term) > -1 ||
-            //(command.description.toLowerCase().indexOf(term) > -1) ||
             ArraySearch(command.allias, term)
         ) {
             result.push(command);
@@ -296,24 +291,22 @@ function ShowResult(ResultArray) {
     if (ResultArray.length < 1) {
         return false;
     }
-    ResultArray.forEach((element) => {
+    for(const element of ResultArray){
         var li = document.createElement("li");
-        li.innerHTML = `<a href="/commands/${element.name.toLowerCase()}">${
-            element.name
-        }</a>`;
+        li.innerHTML = `<a href="${element.link}">${element.name}</a>`;
         list.appendChild(li);
-    });
+    }
     return false;
 }
 
 function ArraySearch(arr, term){
-    if(!arr){ return false }
-    if(!term){ return false }
-    if(!arr.length){ return false }
-    let res = false
+    if(!arr){ return false; }
+    if(!term){ return false; }
+    if(!arr.length){ return false; }
+    let res = false;
     for(let a = 0; a < arr.length; a++){
         if(arr[a].toLowerCase().indexOf(term.toLowerCase()) > -1){
-            res = true
+            res = true;
         }
     }
     return res;
