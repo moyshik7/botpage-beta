@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Allow: /*
+Allow: /commands/
+Allow: /commands/*
+Allow: /commands/sfw/*
+Disallow: /commands/sfw/wholesomehentai/
+Disallow: /commands/sfw/wholesomehentai/*
+Disallow: /res/*
+
+
+User-agent: Discordbot
+Allow: /
+Allow: /*
+Disallow: /res/*
+
+# Host
+Host: https://plubin.xyz
+
+# Sitemaps
+Sitemap: https://plubin.xyz/sitemap.xml
