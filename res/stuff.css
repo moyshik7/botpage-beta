@@ -1,0 +1,79 @@
+#main .content .buttons {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#main .content .buttons  a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 30%;
+    margin: 1%;
+    font-size: 1.65REM;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #DB6C79;
+}
+
+.banners {
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.banners img {
+    width: 40%;
+    border-radius: 20px;
+}
+/*
+E3B505
+*/
+.subspace {
+    margin: 10px;
+    margin-bottom: 20px;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.subspace h3 {
+    font-size: 3REM;
+    font-weight: 900;
+}
+.boxes {
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.boxes div {
+    width: 25%;
+    background-color: #4F6D7A;
+    min-height: 150px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.left {
+    text-align: left;
+}
+.left p {
+    font-size: 1.2REM;
+}
+.boxes div p {
+    text-align: center;
+}
+.boxes div h4 {
+    font-size: 1.5REM;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
+.blue {
+    background-color: #5b98e7;
+    color: white;
+}
+.orange {
+    background-color: #fddbcc;
+    color: black;
+}
