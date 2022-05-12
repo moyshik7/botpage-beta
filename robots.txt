@@ -18,4 +18,5 @@ Disallow: /res/*
 Host: https://plubin.xyz
 
 # Sitemaps
+Sitemap: https://plubin.xyz/sitemap.txt
 Sitemap: https://plubin.xyz/sitemap.xml
