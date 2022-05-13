@@ -6,6 +6,10 @@
 }
 #main .content #commands .category {
     margin: 10px;
+    margin-bottom: 20px;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 20px;
 }
 #main .content #commands .category h2 {
     font-size: 2EM;
