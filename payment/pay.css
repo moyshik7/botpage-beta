@@ -1,6 +1,10 @@
 #main .content #tos {
     text-align: left;
     padding: 10px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', sans-serif
@@ -23,6 +27,9 @@ h5 {
 p, li {
     font-size: 1.3em;
     text-decoration: none;
+}
+ul li ul li {
+    font-size: 1.3em;
 }
 a, p a {
     font-size: 1em;
