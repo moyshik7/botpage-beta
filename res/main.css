@@ -203,7 +203,7 @@ E3B505
     margin: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 750px) {
     #main {
         flex-direction: column;
         height: fit-content;
