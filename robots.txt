@@ -4,10 +4,7 @@ Allow: /*
 Allow: /commands/
 Allow: /commands/*
 Allow: /commands/sfw/*
-Disallow: /res/*
 Disallow: /invite/
-Disallow: /dashboard/
-Disallow: /dashboard/*
 Disallow: /commands/nsfw/*
 Disallow: /commands/sfw/wholesomehentai/
 Disallow: /commands/sfw/wholesomehentai/*
@@ -16,7 +13,6 @@ Disallow: /commands/sfw/wholesomehentai/*
 User-agent: Discordbot
 Allow: /
 Allow: /*
-Disallow: /res/*
 
 # Host
 Host: https://plubin.xyz
