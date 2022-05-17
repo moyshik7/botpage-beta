@@ -2,17 +2,31 @@ User-agent: *
 Allow: /
 Allow: /*
 Allow: /commands/
-Allow: /commands/*
 Allow: /commands/sfw/*
-Disallow: /invite/
 Disallow: /commands/nsfw/*
 Disallow: /commands/sfw/wholesomehentai/
-Disallow: /commands/sfw/wholesomehentai/*
 
 
 User-agent: Discordbot
 Allow: /
 Allow: /*
+
+User-agent: Googlebot
+Allow: /
+Allow: /*
+Allow: /commands/
+Allow: /commands/sfw/*
+Disallow: /commands/nsfw/*
+Disallow: /commands/sfw/wholesomehentai/
+
+User-agent: Bingbot
+Allow: /
+Allow: /*
+
+User-agent: YourMom
+Allow: /my-dick/
+Allow: /my-house/
+Disallow: /your-dads-dick/
 
 # Host
 Host: https://plubin.xyz
